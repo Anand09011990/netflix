@@ -149,7 +149,11 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "githubmetadata",
+					"value": ""
+				}
 			}
 		],
 		"parameters": {
@@ -173,6 +177,11 @@
 						"file_name": "netflix_directores.csv"
 					}
 				]
+			}
+		},
+		"variables": {
+			"githubmetadata": {
+				"type": "String"
 			}
 		},
 		"annotations": []
