@@ -1,0 +1,15 @@
+{
+	"name": "aknetflixdf",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "54c402af-6cc7-4270-bdf2-e8b6e93ca123",
+		"tenantId": "ddd56d78-edc2-48f3-a5af-e2ebbc5cc90f"
+	}
+}
