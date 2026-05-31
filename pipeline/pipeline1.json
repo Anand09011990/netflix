@@ -55,6 +55,7 @@
 									}
 								},
 								"enableStaging": false,
+								"enableSkipIncompatibleRow": false,
 								"translator": {
 									"type": "TabularTranslator",
 									"typeConversion": true,
@@ -131,7 +132,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"method": "GET",
-					"url": "https://github.com/Anand09011990/netflix"
+					"url": "https://raw.githubusercontent.com/Anand09011990/netflix/refs/heads/main/netflix_cast.csv"
 				}
 			},
 			{
@@ -153,15 +154,15 @@
 				"typeProperties": {
 					"variableName": "githubmetadata",
 					"value": {
-						"value": "@activity('githubmetadata').output",
+						"value": "@activity('githubmetadata').output.Response",
 						"type": "Expression"
 					}
 				}
 			}
 		],
 		"parameters": {
-			"P_array": {
-				"type": "array",
+			"p_array": {
+				"type": "string",
 				"defaultValue": [
 					{
 						"folder_name": "netflix_cast",
